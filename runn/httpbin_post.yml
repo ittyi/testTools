@@ -8,6 +8,7 @@ steps:
 - req:
     /post:
       post:
-        headers:
-          Accept: application/json
-        body: null
+        body:
+          application/json: 
+            asa_gohan: "misosiru"
+            oyatsu: "karl"
