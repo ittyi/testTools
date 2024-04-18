@@ -1,4 +1,3 @@
-desc: まずはお馴染みHello world! # desc はシナリオの内容の説明文を入れておく
-steps:
-  -
-    dump: "'Hello world!'"
+desc: まずはお馴染みHello world! # desc はシナリオの内容の説明文を入れておく。なくても動く。
+steps: # シナリオのステップを複数定義する。必ず必要
+  - dump: "'Hello world!'"
