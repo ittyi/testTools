@@ -4,11 +4,15 @@ debug: true
 
 runners: # runbook 内で実行する各種 Runner を定義
   req: http://httpbin.org
+
+vars:
+  asa_gohan: ${RUNN_ASA_GOHAN}
+
 steps:
 - req:
     /post:
       post:
         body:
           application/json: 
-            asa_gohan: "misosiru"
+            asa_gohan: "{{vars.asa_gohan}}"
             oyatsu: "karl"

@@ -15,3 +15,14 @@ runn run runn/hello.yml
 
 debug: true にするとこうなる
 ![debug: true](image-2.png)
+
+### 変数を利用してみる
+env なので、書いた後に読み込まないと null になる?
+```
+export $(cat .env | grep 'RUNN_')
+```
+ダメだった時
+![env が入らなかった時](image-3.png)
+
+うまく行った時
+![env がうまく入った](image-4.png)
