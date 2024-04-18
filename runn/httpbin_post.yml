@@ -9,7 +9,17 @@ vars:
   asa_gohan: ${RUNN_ASA_GOHAN}
 
 steps:
-- req:
+- desc: "httpbin の POST を叩いてみます"
+  req:
+    /post:
+      post:
+        body:
+          application/json: 
+            asa_gohan: "{{vars.asa_gohan}}"
+            oyatsu: "karl"
+
+- desc: "httpbin の POST 2 回目を叩いてみます"
+  req:
     /post:
       post:
         body:

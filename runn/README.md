@@ -26,3 +26,6 @@ export $(cat .env | grep 'RUNN_')
 
 うまく行った時
 ![env がうまく入った](image-4.png)
+
+## 2 回 step を叩いてみてもらった
+![alt text](image-5.png)
