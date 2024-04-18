@@ -1,0 +1,4 @@
+desc: まずはお馴染みHello world! # desc はシナリオの内容の説明文を入れておく
+steps:
+  -
+    dump: "'Hello world!'"
