@@ -1,4 +1,7 @@
-参考URL: [zenn runn チュートリアル](https://zenn.dev/katzumi/books/runn-tutorial/viewer/about)
+## 参考URL
+[zenn runn チュートリアル](https://zenn.dev/katzumi/books/runn-tutorial/viewer/about)
+[いろんなHTTPリクエストを試せるサイト: httpbin](https://httpbin.org/)
+
 
 ### Hello world!
 ```
