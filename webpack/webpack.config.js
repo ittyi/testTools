@@ -11,6 +11,8 @@ const config = {
             },
         ],
     },
+    mode: "development",
+    devtool: "source-map",
 };
 
 // 設定を CommonJS 形式でエクスポート
