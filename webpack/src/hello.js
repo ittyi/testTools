@@ -4,6 +4,6 @@ export class Hello {
     }
 
     greet() {
-        console.log(`Hello, ${this.name}!`);
+        console.log(`Helloooo, ${this.name}!`);
     }
 }
