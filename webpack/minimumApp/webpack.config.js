@@ -13,6 +13,11 @@ const config = {
     },
     mode: "development",
     devtool: "source-map",
+    devServer: {
+        static: {
+            directory: "./dist",
+        },
+    },
 };
 
 // 設定を CommonJS 形式でエクスポート
